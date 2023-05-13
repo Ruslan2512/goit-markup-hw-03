@@ -1,0 +1,504 @@
+body {
+    position: relative;
+    width: 1600px;
+}
+
+.portfolio {
+    font-family: 'Roboto';
+}
+
+.top-line {
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+
+.nav-top {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    text-decoration: none;
+    font-family: 'Raleway';
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+}
+
+.studio {
+    position: absolute;
+    width: 45px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+}
+
+.portfolio-nav {
+    position: absolute;
+    width: 72px;
+    height: 16px;
+    left: 548px;
+    top: 32px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #2196F3;
+}
+
+.contacts {
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 670px;
+    top: 32px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+}
+
+.email  {
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #2196F3;
+}
+
+.contact-link {
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+}
+
+.line {
+    position: absolute;
+    width: 1600px;
+    height: 0px;
+    left: 0px;
+    top: 80px;
+
+    border: 1px solid #ECECEC;
+}
+
+.top-line ul li {
+    float: left;
+    list-style:none;
+}
+
+.menu {
+    position: absolute;
+    left: 512px;
+    top: 174px;
+}
+
+.menu_icons li {
+    float: left;
+    padding: 0 8px;
+    list-style:none;
+
+}
+
+.button-all {
+    width: 73px;
+    height: 38px;
+    border: 0;
+    background: #2196F3;
+    /* shadow-middle */
+
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.button-word-all {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+
+.button-web-site {
+    width: 125px;
+    height: 38px;
+    border: 0;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.button-word-web-site {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.button-apps {
+    width: 112px;
+    height: 38px;
+    border: 0;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.button-word-apps {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.button-design {
+    width: 103px;
+    height: 38px;
+    border: 0;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.button-word-design {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.button-marketing {
+    width: 130px;
+    height: 38px;
+    border: 0;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.button-word-marketing {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.technocrat {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 262px;
+
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.title-images {
+    position: absolute;
+    width: 322px;
+    height: 36px;
+    left: 24px;
+    top: 314px;
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+
+    letter-spacing: 0.06em;
+
+    color: #212121;
+}
+
+.description-images {
+    position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 24px;
+    top: 354px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+.poster {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 262px;
+
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.restaurant-seafood {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 262px;
+
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.project-prime {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 696px;
+
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.project-boxes {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 696px;
+
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.inspiration-has-no-borders {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 696px;
+
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.limited-edition {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 1130px;
+
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.project-lab {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 1130px;
+
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.growing-business {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 1130px;
+
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.footer {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+
+    background: #2F303A;
+}
+
+.nav-bottom {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 60px;
+    color: #FFF;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+}
+
+.web {
+    width: 145px;
+    height: 31px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.fact-address {
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 111px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+
+.el-address {
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 141px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.tel-address {
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 171px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
